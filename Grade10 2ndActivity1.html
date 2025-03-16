@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Javascript Function </title>
+</head>
+
+<script type="text/javascript">
+    function test_func1() {document.write("This function loaded without a parameter.<br><br>")
+    }
+    
+    function test_func2(time) {
+    alert("Good " + time + ". It is nice to meet you!")
+    }
+    
+    function make_return() { document.write("This function returns an integer.<br><br>") 
+    return 7 }
+    
+    function alert_me() {num_1=make_return()
+    alert("There are " + num_1 + " days on a week!") }
+    </script>
+    </head>
+    
+    <body>
+    <h2> Using Functions </h2>
+    <script type="text/javascript"> test_func1() </script>
+    <input type="button" onclick="test_func2('Morning')" value="Morning">
+    <input type="button" onclick="test_func2('Evening')" value="Evening">
+    
+    <h2> Using return function </h2>
+    <script type="text/javascript">alert_me()</script>
+    
+</body>
+</html>
+    
